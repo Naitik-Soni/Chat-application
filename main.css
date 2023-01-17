@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+iframe {
+    width: 400px;
+    height: 95vh;
+    border-radius: 5px;
+    /*box-shadow: 0 0 5px grey;*/
+}
+
+a {
+    text-decoration: none;
+    padding: 7px 28px;
+    border: 2px solid #e53225;
+    border-radius: 3px;
+    color: #e53225;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #e53225;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #e53225;
+}
+
+form {
+    border-radius: 5px;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0 0 3px grey;
+}
+
+form input {
+    width: 300px;
+    outline: none;
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+form h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+form input:focus {
+    border: 1px solid #e53225;
+    box-shadow: 0 0 10px #e53225;
+}
+
+form input[type=submit] {
+    width: 100px;
+    border: 1px solid #e53225;
+    color: #e53225;
+    background-color: white;
+    height: 40px;
+}
+
+form input[type=submit]:hover {
+    background-color: #e53225;
+    color: white;
+}
+
+form a {
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+}
+
+form a:hover {
+    background: white;
+    color: #e53225;
+}
